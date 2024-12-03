@@ -1,30 +1,71 @@
-.color-example {
-    color: blue; /* Change to your favorite color (named color) */
-    background-color: #ffcc00; /* Contrasting color in hexadecimal */
-    border: 2px solid green; /* Border with chosen color and thickness */
+body {
+    background-color: #fff0fc; /* Light blue background color */
+    background-image: url('background.jpg'); /* Optional: add a background image */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.header-example {
-    font-size: 2em; /* Change font size */
-    font-family: 'Arial', sans-serif; /* Change font family */
-    color: darkred; /* Change text color */
+header {
+    background-color: #81af4c; /* Green background for the header */
+    color: black;
+    padding: 10px;
+    position: relative; /* To use absolute positioning for links if needed */
 }
 
-.list-example {
-    list-style-type: square; /* Change bullet point style */
-    color: purple; /* Change text color */
+h1, h2 {
+    border: 2px solid #333333c8; /* Add border to heading elements */
+    padding: 10px;
 }
 
-.text-example {
-    font-family: 'Georgia', serif; /* Different font family */
-    font-size: 1.05em; /* Larger font size */
-    text-transform: capitalize; /* Capitalize text */
-    text-decoration: underline; /* Underline text */
+nav {
+    position: absolute;
+    top: 10px;
+    left: 10px; /* Positioning links in the upper left corner */
 }
 
-.div-example {
-    background-color: #f0f0f0; /* Light gray background color */
-    border: 2px solid rgba(0, 0, 0, 0.866); /* Black border with specified thickness */
-    padding: 10px; /* Padding for spacing inside the div */
-    margin-top: 20px; /* Optional: add space above the div */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+section {
+    padding: 20px;
+}
+
+p {
+    background-color: #e0ffe0; /* Light green background for paragraphs */
+    border-radius: 10px; /* Rounded borders for paragraphs */
+    padding: 10px;
+    margin: 10px 0; /* Margin to separate paragraphs */
+}
+
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto;
+    display: block; /* Ensure images are block elements */
+    margin: 10px 0; /* Margin to separate images from text */
+}
+
+figure {
+    margin: 20px 0; /* Margin around figures */
+}
+
+figcaption {
+    font-style: italic;
+    text-align: left; /* Centered caption text */
+}
+
+progress {
+    display: block; /* Block display for progress element */
+    width: 100%; /* Full width of the parent */
+    margin-top: 20px; /* Space above the progress bar */
+}
+
+footer {
+    text-align: center; /* Centered text in footer */
+    padding: 10px;
+    background-color: #af604cf0; /* Footer background color */
+    color: rgba(0, 0, 0, 0.788);
 }
